@@ -11,3 +11,7 @@ D = matrix(c(5,-5,-5,10), nrow=2,
 K = rbind(cbind(C,A,A), 
     cbind(A,B,A),
     cbind(D,A,C))
+    
+K[ ,1]
+K[1 , ]
+K[1 ,1]
