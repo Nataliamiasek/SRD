@@ -1,0 +1,13 @@
+# Generowanie macierzy
+A = matrix(rep(0, times=4), nrow=2,
+           ncol=2, byrow=TRUE)
+A = matrix(0, nrow=2, ncol=2)
+B = matrix(1:4, nrow=2, ncol=2, 
+           byrow=TRUE)
+C = matrix(1, nrow=2, ncol=2)
+D = matrix(c(5,-5,-5,10), nrow=2,
+           ncol=2, byrow=TRUE)
+
+K = rbind(cbind(C,A,A), 
+    cbind(A,B,A),
+    cbind(D,A,C))
