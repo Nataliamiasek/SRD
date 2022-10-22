@@ -1,0 +1,24 @@
+int max(int t[], int r){
+    int i = 0;
+    int najwiekszy;
+    najwiekszy = t[ 0 ];
+    do
+    {
+        if( t[ i ] > najwiekszy )
+             najwiekszy = t[ i ];
+        i++;
+    } while( i < r );
+    return najwiekszy;
+}
+int maxx(int t[], int r){
+    int i = 0;
+    int drugi;
+    drugi = t[ 0 ];
+    do
+    {
+        if( t[ i ] > drugi))
+             drugi = t[ i ];
+        i++;
+    } while( i < r );
+    return drugi;
+}
