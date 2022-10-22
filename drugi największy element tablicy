@@ -16,7 +16,7 @@ int maxx(int t[], int r){
     drugi = t[ 0 ];
     do
     {
-        if( t[ i ] > drugi))
+        if( t[ i ] > drugi && t[ i ] < max(t,5))
              drugi = t[ i ];
         i++;
     } while( i < r );
