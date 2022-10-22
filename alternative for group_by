@@ -1,0 +1,3 @@
+vttown %>%
+  group_by(gender, kids)%>%
+  summarise(mean=mean(lived, na.rm=TRUE))
