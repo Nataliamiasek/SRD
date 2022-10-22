@@ -1,3 +1,6 @@
 vttown %>%
   group_by(gender, kids)%>%
   summarise(mean=mean(lived, na.rm=TRUE))
+  
+  
+  aggregate(lived~gender+kids, vttown, mean, na.rm=TRUE)
